@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+body{				/*type="text/css" html5에서는 안사용한다. */
+	width: 680px;
+	margin: 0px auto;
+}
+
+header{
+	width: 680px;
+}
+
+header p{		
+	text-align: right;
+	font-size: 12px;
+}
+
+header h1{
+	text-align: center;
+	font-size: 45px;
+	color: skyblue;
+	text-shadow: 5px 5px 5px darkblue;	/*간단하게 이미지같은 효과를 낼 수 있다.*/
+}
+
+header nav{
+	border-top: 3px double darkblue;
+	border-bottom: 3px double darkblue;
+	background: #ddf3fb;
+}
+
+header nav li{			/*자식을 여러번 사용 가능하다.*/
+	list-style-type: none;
+	display: inline;
+	margin-left: 40px;
+}
+
+section{
+	width: 680px;
+}
+
+#mainImg{				/*ID선택자는 #으로 시작한다.*/
+	width: 300px;
+	float: left;
+}
+
+#mainImg img{			/*ID선택자에 자손선택자도 선택이 가능하다*/
+	width: 300px;
+	
+}
+
+#mainMenu{
+	float: left; 
+}
+
+footer{
+	float: 680px;
+	clear: both;		/*float로 선택한걸 해제할수있다.*/
+	text-align: center;
+}
